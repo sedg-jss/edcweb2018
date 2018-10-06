@@ -76,7 +76,12 @@ button {
 #banner header img {
     max-width: 120px;
 }
-
+.fa-arrow-down{
+    position: relative;
+    animation-name: down;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
 /********** feature (skew background) **********/
 .mx-auto{
     max-width: 180px!important;
@@ -161,6 +166,14 @@ button {
     color: #ffffff;
 }
 
+@keyframes down{
+    0%,100%{
+        bottom: -3px;
+    }
+    50%{
+        bottom: 3px;
+    }
+}
 /********** RWD **********/
 @media (max-width: 575px) {
     #banner h1 {
