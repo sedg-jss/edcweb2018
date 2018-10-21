@@ -180,3 +180,7 @@ button {
         font-size: 2rem;
     }
 }
+
+header img{
+    min-width: 100px;
+}
