@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>EDC JSSATEN</title>
+    <title>EDC JSSATEN | Home</title>
     <meta name="description" content="Entrepreneurship Development Cell of JSS Academy of Technical Education Noida. Accelerating and incubating student start-ups.">
     <link rel="icon" href="img/icon.png" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="css/custom.css">
@@ -13,7 +13,6 @@
     <script>
   $(document).ready(function(){
     $('a').on('click', function(event) {
-        event.preventDefault();
         var hash = this.hash;
         $('html, body').animate({scrollTop: $(hash).offset().top}, 900);
     });
@@ -31,7 +30,8 @@
                         <img src="img/logo.png" alt="logo">
                     </div>
                     <div class="col-6 align-self-center text-right">
-                        <a href="#contact" class="text-white lead" >Contact</a>
+                        <a href="http://esummit.edcjss.in/" class="text-white lead">ESummit'18</a>
+                        <a href="archive.html" class="text-white lead ml-3">Archive</a>
                     </div>
                 </div>
             </header>
@@ -97,7 +97,7 @@
             </div>
         </div>
     </div>
-    <div class="container my-5 py-2" id="price-table">
+    <div class="container my-5 py-2" id="events">
         <h2 class="text-center font-weight-bold d-block mb-3">Our flagship events</h2>
         <div class="row">
             <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
@@ -218,44 +218,6 @@
     <script>
       AOS.init({
       });
-    </script>
-    <script type="text/javascript">
-        // Select all links with hashes
-        $('a[href*="#"]')
-            // Remove links that don't actually link to anything
-            .not('[href="#"]')
-            .not('[href="#0"]')
-            .not('[href="#carousel"]')
-            .click(function(event) {
-                // On-page links
-                if (
-                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
-                    location.hostname == this.hostname
-                ) {
-                    // Figure out element to scroll to
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    // Does a scroll target exist?
-                    if (target.length) {
-                        // Only prevent default if animation is actually gonna happen
-                        event.preventDefault();
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 500, function() {
-                            // Callback after animation
-                            // Must change focus!
-                            var $target = $(target);
-                            $target.focus();
-                            if ($target.is(":focus")) { // Checking if the target was focused
-                                return false;
-                            } else {
-                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                                $target.focus(); // Set focus again
-                            };
-                        });
-                    }
-                }
-            });
     </script>
 </body>
 
