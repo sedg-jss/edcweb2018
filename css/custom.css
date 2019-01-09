@@ -13,7 +13,15 @@ a,
 button {
     cursor: pointer;
 }
-
+#events a{
+    margin-right: 30px;
+}
+.event-card{
+    min-height: 425px!important;
+}
+iframe{
+    height: 125px;
+}
 .btn-collab{
     width: 100%;
 }
