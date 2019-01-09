@@ -16,9 +16,6 @@ button {
 #events a{
     margin-right: 30px;
 }
-.event-card{
-    min-height: 425px!important;
-}
 iframe{
     height: 125px;
 }
@@ -189,6 +186,10 @@ iframe{
     #banner h1 {
         font-size: 2rem;
     }
+    
+.event-card{
+    min-height: 425px!important;
+}
 }
 
 header img{
