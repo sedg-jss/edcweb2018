@@ -20,6 +20,10 @@ a, button {
     top: 36px;
 }
 
+.jumbotron{
+    padding: 2rem!important;
+}
+
 .event-content {
     text-align: justify;
     text-justify: inter-word;
