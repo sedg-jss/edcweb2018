@@ -1,4 +1,5 @@
 /********** common setting **********/
+
 h2 {
     font-size: 2.8rem !important;
     font-weight: 700;
@@ -9,19 +10,32 @@ img {
     max-width: 100%;
 }
 
-a,
-button {
+a, button {
     cursor: pointer;
 }
-#events a{
+
+#events a {
     margin-right: 30px;
+    position: relative;
+    top: 36px;
 }
-iframe{
+
+.event-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.event-card{
+    height: 400px;
+}
+
+iframe {
     height: 125px;
 }
-.btn-collab{
+
+.btn-collab {
     width: 100%;
 }
+
 .jumbotron {
     margin-bottom: 0 !important;
 }
@@ -77,6 +91,7 @@ iframe{
 }
 
 /********** banner **********/
+
 #banner header {
     overflow: hidden;
 }
@@ -84,20 +99,25 @@ iframe{
 #banner header img {
     max-width: 120px;
 }
-.fa-arrow-down{
+
+.fa-arrow-down {
     position: relative;
     animation-name: down;
     animation-iteration-count: infinite;
     animation-duration: 1s;
 }
+
 /********** feature (skew background) **********/
-.mx-auto{
+
+.mx-auto {
     max-width: 180px!important;
     margin-bottom: 10px;
 }
-.display-4{
+
+.display-4 {
     font-size: 2rem!important;
 }
+
 .feature img {
     width: 100%;
     max-width: 480px;
@@ -112,10 +132,12 @@ iframe{
 }
 
 /********** price table **********/
+
 #price-table {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
 }
+
 .premium:hover {
     background: #192440;
     color: #ffffff;
@@ -126,6 +148,7 @@ iframe{
 }
 
 /********** contact **********/
+
 #contact {
     background-size: cover;
 }
@@ -138,14 +161,14 @@ iframe{
     color: #00FFAD;
 }
 
-#contact form input,
-#contact form textarea {
+#contact form input, #contact form textarea {
     background: transparent;
     border: 1px solid #00FFAD;
     color: #ffffff;
 }
 
 /********** copyright **********/
+
 #copyright {
     background: #192440;
     padding: 2rem 3rem;
@@ -173,25 +196,32 @@ iframe{
     color: #ffffff;
 }
 
-@keyframes down{
-    0%,100%{
+@keyframes down {
+    0%, 100% {
         bottom: -3px;
     }
-    50%{
+    50% {
         bottom: 3px;
     }
 }
+
 /********** RWD **********/
+
 @media (max-width: 575px) {
     #banner h1 {
         font-size: 2rem;
     }
-    
-.event-card{
-    min-height: 425px!important;
-}
+    .event-card {
+        min-height: 425px!important;
+    }
+    #events a{
+        top: 0;
+    }
+    .event-content{
+        margin-top: 2rem;
+    }
 }
 
-header img{
+header img {
     min-width: 100px;
 }
