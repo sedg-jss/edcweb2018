@@ -1,0 +1,410 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: #5d5d5d;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #172525;
+}
+
+#loader img {
+    margin-top: 40vh;
+    width: 150px;
+    height: 150px;
+}
+
+.navbar {
+    background-color: #172525;
+}
+
+.section {
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 25px!important;
+    width: auto!important;
+}
+
+.nav-link {
+    font-size: .75rem;
+    line-height: 1.4;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white!important;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: #00aaaa!important;
+}
+
+.nav-button .btn-primary {
+    font-size: .75rem!important;
+    text-transform: uppercase;
+}
+
+.section h1 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.section-image {
+    background-image: url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    height: 100vh;
+}
+
+.section-imageupstart {
+    background-image: url(../assets/UDESK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    height: 100vh;
+}
+
+.section-imagesocial {
+    background-image: url(../assets/SOCIALDESK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    height: 100vh;
+}
+
+.section-numbers {
+    background-color: #EBE1BE;
+}
+
+.section-numbers .head {
+    font-size: 30px;
+    color: #172525;
+    height: 100px;
+}
+
+.section-numbers .numbers {
+    font-size: 42px;
+    color: #ee3268;
+}
+
+.section-numbers .plus:after {
+    content: '+';
+}
+
+.section-about p {
+    color: #EBE1BE;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.section-about h1 {
+    color: #EBE1BE;
+}
+
+.section-about {
+    background-color: #172525;
+}
+
+.section-events {
+    background: #ebe1be;
+}
+
+.section-events2 {
+    background: #172525;
+}
+
+.section-events2 li {
+    color: #ebe1be;
+}
+
+.section-events2 h1 {
+    color: #ebe1be;
+}
+
+.section-events img {
+    height: 200px;
+    width: 200px;
+}
+
+.event-icon {
+    transition: transform 0.3s;
+}
+
+.event-icon:hover {
+    transform: scale(0.9);
+}
+
+/*
+.section-events .card {
+    background: #172525;
+    border: none;
+}
+
+.section-events .card .card-body {
+    min-height: 220px;
+}
+
+.section-events .card .card-body h5 {
+    color: #ebe1be;
+}
+
+.section-events .card .card-body p {
+    color: #ebe1be;
+    font-weight: 100;
+}
+*/
+
+.section-past {
+    color: #172525;
+    background: #EBE1BE;
+}
+
+.section-sponsers {
+    background: #172525;
+}
+
+.section-sponsers h1 {
+    color: #ebe1be;
+}
+
+.section-contact {
+    background: #ebe1be;
+
+}
+
+.section-partners {
+    color: #172525;
+    background: #ebe1be;
+}
+
+.section-tickets {
+    background: #172525;
+}
+
+.section-tickets h1 {
+    color: #ebe1be;
+}
+
+.section-tickets .card-deck .card {
+    background: #ebe1be;
+    color: #172525;
+}
+
+.section-tickets .card-deck .card .card-body .card-title {
+    font-weight: 800;
+}
+
+.section-tickets .card-deck .card .card-body .card-text {
+    font-size: 16px;
+}
+
+.card-body ul li {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.card-body ul li:before {
+    content: '-  ';
+}
+
+.page-footer {
+    background: #172525;
+}
+
+.page-footer a {
+    color: #ebe1be;
+    text-decoration: none;
+}
+
+#facebook:hover {
+    color: #3b5999;
+}
+
+#twitter:hover {
+    color: #55acee;
+}
+
+#linkedin:hover {
+    color: #0077B5;
+}
+
+#instagram:hover {
+    color: #e4405f;
+}
+
+#email:hover {
+    color: cadetblue;
+}
+/*
+.rollOver.expand {
+    max-height: 800px;
+}
+
+.rollOver {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+*/
+
+.box-shadow {
+    -webkit-box-shadow: 0 2px 5px #bbb;
+    -moz-box-shadow: 0 2px 5px #bbb;
+    box-shadow: 0 2px 5px #bbb;
+}
+
+.btn {
+    color: #fff!important;
+}
+
+.btn-red {
+    background: #ee3268!important;
+    border: 0.0625rem solid #ee3268;
+    transition: all 0.3s;
+}
+
+.btn-red:hover {
+    border-color: #dd1248!important;
+    background: #dd1248!important;
+}
+
+.btn-teal {
+    background: #00aaaa!important;
+    border: 0.0625rem solid #00aaaa!important;
+    transition: all 0.3s;
+}
+
+.btn-teal:hover {
+    background: #008b8b!important;
+    border-color: #008b8b!important;
+}
+
+nav .btn {
+    font-weight: 800;
+}
+
+.box .title {
+    margin: 0;
+    padding: 5px 0 0 0;
+    font-size: .875rem;
+    color: #373737;
+    font-weight: 800;
+}
+
+.box .sub-title {
+    margin: 0;
+    display: block;
+    font-size: .75rem;
+    color: #5d5d5d;
+    line-height: 1.4;
+    white-space: nowrap;
+    font-weight: 800;
+}
+
+.box .sub-text {
+    font-size: .8125rem;
+    font-style: italic;
+    color: #909090;
+    line-height: 1.4;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+
+footer {
+    background-color: #172525;
+    height: 100px;
+}
+
+.footer-text {
+    color: #ebe1be;
+}
+
+.footer-text img {
+    margin-bottom: 4px;
+    margin-right: 2px;
+}
+
+.list-item {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    nav .btn {
+        font-weight: 800;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:758px) {
+    #rollButton {
+        display: none;
+    }
+    .section-image {
+        background-image: url(../assets/banner-small.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+        height: 100vh;
+    }
+
+
+    .section-imageupstart {
+        background-image: url(../assets/UPHONE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+        height: 100vh;
+    }
+
+    .section-imagesocial {
+        background-image: url(../assets/SOCIALPHONE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+        height: 100vh;
+    }
+
+    #about p {
+        font-size: 1.1em;
+    }
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(235,225,190,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.partner {
+    height: 100px;
+    width: auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-inline-item a {
+    transition: all 0.3s;
+}
+
+.struc li a {
+    color: #ee3268;
+    font-weight: 700;
+}
+
+.struc li a:hover {
+    text-decoration: none;
+}
